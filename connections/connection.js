@@ -12,3 +12,4 @@ exports.connect = async () => {
         console.error("error in connection", err)
     })
 }
+

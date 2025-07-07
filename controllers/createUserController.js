@@ -96,8 +96,16 @@ exports.deleteUser = async (req, res) => {
 
     }
 
+
+
     catch (error) {
         console.error("Error deleting user:", error);
         res.status(500).json({ message: "Internal server error" });
     }
 }
+
+
+
+
+
+// filter.tile {$regex: title, $options: 'i'} // case senstitve search in real time 
